@@ -1,0 +1,17 @@
+print ("1. examples of data types")
+print ("integer: 10")
+print ("float: 4.2")
+print ("complex: 4 - 4j")
+print ("string: 'sofia'")
+print ("boolean: True")
+print ("list: [3, 4.4, 555]")
+print ("tuple: (3, 4.4, 555)")
+print ("set: {3, 4.4, 555}")
+print ("dictionary: {'colour': red, 'mood': happy}")
+print ("2. a euclidean distance")
+#deciding to use basic python and the math.dist function
+import math
+point1 = (2, 3)
+point2 = (10, 8)
+distance = math.dist(point1, point2)
+print (distance)

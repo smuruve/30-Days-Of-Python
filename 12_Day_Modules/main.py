@@ -1,10 +1,15 @@
+import mymodule
+print(mymodule.generate_full_name("Sofia", "Muruve"))
 
-from mymodule import generate_full_name as fullname, sum_two_nums as total, person as p, gravity as g
-print(fullname('Asabneh','Yetayeh'))
-print(total(1, 9))
+from mymodule import generate_full_name, sum_two_nums, person, gravity
+
+print(generate_full_name("Sofia", "Muruve"))
+
 mass = 100
-print(mass)
-weight = mass * g
+weight = mass * gravity
 print(weight)
-print(p)
-print(p['firstname'])
+
+print(person["firstname"])
+
+import os
+os.getcwd()

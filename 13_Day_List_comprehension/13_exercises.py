@@ -53,4 +53,4 @@ print(combined_names)
 # 7
 slope = lambda x1, y1, x2, y2: (y2 - y1)/(x2 - x1)
 
-print(slope(6, 2, 8, 1))
+print(slope(6, 2, 8, 1)) # - 0.5
